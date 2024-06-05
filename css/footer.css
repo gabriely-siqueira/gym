@@ -1,0 +1,35 @@
+.footer .share{
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.footer .share a{
+    font-size: 2rem;
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    color: var(--primary);
+    border: .1rem solid var(--primary);
+    margin: .3rem;
+    border-radius: 50%;
+}
+
+.footer .share a:hover{
+    color: var(--white);
+    background: var(--primary);
+}
+
+.footer .credit{
+    border-top: .1rem solid rgba(255, 255, 255, .2);
+    font-size: 2rem;
+    margin-top: 2.5rem;
+    padding: 1rem;
+    padding-top: 2rem;
+    text-align: center;
+    color: var(--white);
+}
+
+.footer .credit span{
+    color: var(--primary);
+}
+

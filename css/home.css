@@ -1,0 +1,53 @@
+.home{
+    background: url(../images/home.jpg) no-repeat;
+    min-height: 110vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+}
+
+.home .content{
+    max-width: 55rem;
+}
+
+.home .content h3{
+    font-size: 7rem;
+    color: var(--white);
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.home .content h3 span{
+    color: var(--primary);
+    text-transform: uppercase;
+}
+
+.home .content p{
+    font-size: 1.6rem;
+    color: var(--white);
+    padding: 1rem 0;
+    line-height: 2;
+}
+
+.home .share{
+    padding-top: 2rem;
+    text-align: center;
+    margin-right: 25.5rem;
+}
+
+.home .share a{
+    font-size: 2rem;
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    color: var(--primary);
+    border: .1rem solid var(--primary);
+    margin: .3rem;
+    border-radius: 50%;
+}
+
+.home .share a:hover{
+    color: var(--white);
+    background: var(--primary);
+}
+
